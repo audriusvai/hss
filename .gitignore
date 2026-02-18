@@ -1,0 +1,120 @@
+# ========================
+# Dependencies
+# ========================
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ========================
+# Next.js
+# ========================
+.next/
+out/
+build/
+dist/
+
+# ========================
+# Bun
+# ========================
+bun.lockb
+*.bun
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+# Keep .env.example committed
+!.env.example
+
+# ========================
+# Prisma
+# ========================
+# Generated client — regenerated via `prisma generate`
+app/node_modules/.prisma/
+# Migration lock is committed; ignore nothing else here
+
+# ========================
+# TypeScript
+# ========================
+*.tsbuildinfo
+next-env.d.ts
+
+# ========================
+# Biome
+# ========================
+# No generated artifacts to ignore
+
+# ========================
+# Logs
+# ========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+bun-debug.log*
+
+# ========================
+# OS
+# ========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ========================
+# Testing
+# ========================
+coverage/
+.nyc_output/
+*.lcov
+
+# ========================
+# Vercel / Deployment
+# ========================
+.vercel
+.netlify
+
+# ========================
+# shadcn/ui
+# ========================
+# components.json is committed; generated components go in src/components/ui/ which is committed
+
+# ========================
+# Stripe CLI (local dev)
+# ========================
+.stripe/
+
+# ========================
+# Misc
+# ========================
+*.pem
+.cache/
+tmp/
+temp/
+.agents/plans
+.agents/PRDs
