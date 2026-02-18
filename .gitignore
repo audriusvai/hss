@@ -116,5 +116,5 @@ coverage/
 .cache/
 tmp/
 temp/
-.agents/plans
-.agents/PRDs
+app
+manolaikai-build-state.md
